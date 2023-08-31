@@ -18,7 +18,7 @@ function App() {
   }
   return (
     <div className="w-[100vw] h-[100vh] flex justify-center items-center bg-[#344151] flex-col gap-10">
-      <div className="text-[#bfc5c7]  font-medium text-2xl">Increament & Decreament</div>
+      <div className="text-[#0398d4]  font-medium text-2xl">Increament & Decreament</div>
       <div className="bg-white flex justify-center gap-12 py-3 rounde-sm text-[25px] text-[#344151]">
         <button onClick={decreaseHandler} className="border-r-2 text-center w-20 border-[#bfbfbf] text-5xl">
           -
@@ -26,7 +26,7 @@ function App() {
         <div className="font-bold gap-12 text-5xl">
           {count}
         </div>
-        <button onClick={increaseHandler} className="border-r-2 text-center w-20 border-[#bfbfbf] text-5xl" >
+        <button onClick={increaseHandler} className="border-l-2 text-center w-20 border-[#bfbfbf] text-5xl" >
           +
         </button>
       </div>
